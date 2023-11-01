@@ -1,0 +1,8 @@
+{
+    "website_url": "https://example.com",
+    "pages_to_scrape": 5,
+    "data_to_extract": ["title", "description", "link"],
+    "data_output_file": "output.json",
+    "run_program": true
+  }
+  
