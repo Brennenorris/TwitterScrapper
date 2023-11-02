@@ -1,5 +1,5 @@
 from selenium import webdriver
-from selenium.webdriver.common.by import By  # Added import for By
+from selenium.webdriver.common.by import By  
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import json
@@ -12,7 +12,7 @@ chrome_driver_path = '/desktop/WebScraper/chromedriver_mac_arm64'
 driver = webdriver.Chrome(executable_path=chrome_driver_path)
 
 # Twitter URL of the tweet you want to scrape
-tweet_url = "https://twitter.com/TwitterUser/status/1234567890"  # Replace with the URL of the tweet
+tweet_url = 'website_url'
 
 driver.get(tweet_url)
 
@@ -50,4 +50,4 @@ if run_program:
     print(f"Extracting data: {data_to_extract}")
     print(f"Saving data to {data_output_file}")
 else:
-    print("Program is turned off. Set 'run_program' to true in the configuration to enable it.")
+    print("Program is off Set 'run_program' to true in config to enable")
