@@ -1,7 +1,7 @@
 from selenium import webdriver
 
 # Specify the path to ChromeDriver
-chrome_driver_path = '/desktop/WebScraper/chromedriver_mac_arm64'  
+chrome_driver_path = "/Users/brennennorris/Desktop/TwitterScrapper/chromedriver_mac64/chromedriver" 
 
 # Initialize the WebDriver with the path to ChromeDriver
 driver = webdriver.Chrome(executable_path=chrome_driver_path)
