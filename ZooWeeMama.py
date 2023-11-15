@@ -6,7 +6,7 @@ import mysql.connector
 import json
 
 # Specify path to ChromeDriver
-chrome_driver_path = 'c:\Users\brenn\OneDrive\Desktop\Void\chromedriver.exe'  
+chrome_driver_path = 'c:\\Users\\brenn\\OneDrive\\Desktop\\Void\\chromedriver.exe'  
 
 # Initialize WebDriver with path to ChromeDriver
 driver = webdriver.Chrome(executable_path=chrome_driver_path)
