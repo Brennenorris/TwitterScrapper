@@ -6,17 +6,17 @@ import json
 import time
 
 # Specify path to ChromeDriver
-chrome_driver_path = '/desktop/WebScraper/chromedriver_mac_arm64'  
+chrome_driver_path = 'c:\Users\brenn\OneDrive\Desktop\Void\chromedriver.exe'  
 
 # Initialize WebDriver with path to ChromeDriver
 driver = webdriver.Chrome(executable_path=chrome_driver_path)
 
-# Twitter URL of the tweet you want to scrape
+# Twitter URL 
 tweet_url = 'website_url'
 
 driver.get(tweet_url)
 
-wait = WebDriverWait(driver, 10)  # Adjust the timeout
+wait = WebDriverWait(driver, 10)  #timeout
 
 #likes
 likes_element = wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, '.css-901oao.r-1re7ezh.r-1qd0xha.r-n6v787.r-16dba41.r-1sf4r6n.r-bcqeeo.r-qvutc0 span')))

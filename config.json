@@ -1,5 +1,5 @@
 {
-    "website_url": "https://example.com",
+    "website_url": "https://twitter.com/explore/tabs/trending",
     "pages_to_scrape": 5,
     "data_to_extract": ["title", "description", "link"],
     "data_output_file": "Results.txt",
