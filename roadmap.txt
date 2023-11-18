@@ -1,0 +1,10 @@
+1.1
+SQL database with dockersetup, run python file in a virtual machine that exports the data 
+to the sql database, create a dynamic tablau worksheet that shows the data as it gets collected
+
+1.2
+connect to tensorflow to sql/ tablau to start to anaylize the data, and start creating tweets that
+are predicted to do well
+
+1.3 create a twitter bot to start posting and recording how accurate the predictions are
+
